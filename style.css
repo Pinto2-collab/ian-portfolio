@@ -75,9 +75,25 @@ html {
 
 /*Melhorar navbar*/
 nav {
-    backdrop-filter: bluer(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
     background-color: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
 }
+
+nav .nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*Melhorar header*/
 header {
     min-height: 100vh;
