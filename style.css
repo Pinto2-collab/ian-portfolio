@@ -56,6 +56,12 @@ nav a:hover {
     color: #3b82f6;
 }
 
+nav h2 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600
+}
+
 /* ================= HEADER ================= */
 
 header {
