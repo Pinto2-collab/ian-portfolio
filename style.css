@@ -68,4 +68,21 @@ header {
     border-radius: 10px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/*Melhorar navbar*/
+nav {
+    backdrop-filter: bluer(10px);
+    background-color: rgba(15, 23, 42, 0.8);
+}
+/*Melhorar header*/
+header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
