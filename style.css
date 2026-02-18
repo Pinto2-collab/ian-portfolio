@@ -11,7 +11,7 @@ h1 {
     font-size: 48px;
 }
 
-/* Navbar */
+/* Navbar 
 nav {
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ nav {
     top: 0;
     left: 0;
 }
-
+*/
 
 nav ul {
     list-style: none;
@@ -32,12 +32,12 @@ nav ul {
     gap: 30px;
 }
 
-/*
+
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}*/
+}
 
 /* Header adjustment */
 header {
