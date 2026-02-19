@@ -163,4 +163,28 @@ section h2 {
     background-color: #2563eb;
 }
 
+/* ================= SILENCE PAGE ================= */
+
+.photo-hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: #000000;
+}
+
+.photo-hero h1 {
+    font-size: 4rem;
+    letter-spacing: 8px;
+    font-weight: 300;
+}
+
+.photo-hero p {
+    margin-top: 20px;
+    color: #888;
+    font-size: 1rem;
+}
 
