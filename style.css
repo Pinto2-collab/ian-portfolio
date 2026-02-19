@@ -106,14 +106,14 @@ nav a:hover {
 }
 
 .hero-btn {
-    display: inline-block;
-    background-color: #3b82f6;
-    color: white;
-    padding: 14px 32px;
-    border-radius: 8px;
-    border: 20px solid transparent;
+    color: #3b82f6;         /* azul suave */
+    border: 2px solid #3b82f6;
+    padding: 10px 22px;
+    border-radius: 6px;
     text-decoration: none;
-    transition: 0.3s ease;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.3s;
 }
 
 .hero-btn:hover {
