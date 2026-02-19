@@ -77,15 +77,12 @@ nav a:hover {
 /* ================================================= */
 
 .hero {
-    min-height: 90vh;
-    padding: 120px 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    text-align: center;        /* centraliza tudo */
+    padding: 120px 20px;       /* altura moderna */
+    max-width: 900px;          /* limita largura da section */
+    margin: 0 auto;            /* centraliza horizontalmente */
 }
+
 
 .hero h1 {
     font-size: 3rem;            /* tamanho moderno */
@@ -115,6 +112,7 @@ nav a:hover {
     font-weight: 500;
     display: inline-block;
     transition: 0.3s;
+    margin-top: 10px;
 }
 
 .hero-btn:hover {
