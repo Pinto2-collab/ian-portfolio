@@ -76,56 +76,63 @@ nav a:hover {
 /* ====================== HERO ===================== */
 /* ================================================= */
 
+/* ===========================
+   HERO SECTION – layout geral
+   =========================== */
 .hero {
-    text-align: center;        /* centraliza tudo */
-    padding: 120px 20px;       /* altura moderna */
-    max-width: 900px;          /* limita largura da section */
-    margin: 0 auto;            /* centraliza horizontalmente */
+    text-align: center;       /* centraliza todo o conteúdo dentro do hero */
+    padding: 120px 20px;      /* espaço em cima/baixo (120px) e lados (20px) */
+    max-width: 900px;         /* impede que o hero fique demasiado largo */
+    margin: 0 auto;           /* centraliza horizontalmente o hero na página */
 }
 
-
+/* ===========================
+   TÍTULO (H1)
+   =========================== */
 .hero h1 {
-    font-size: 3rem;            /* tamanho moderno */
-    font-weight: 700;           /* mais forte e profissional */
-    letter-spacing: 2px;      
-    margin-bottom: 10px;       /* espaco pequeno abaixo */
-    line-height: 1.1;          /* deixa mais compacto e bonito */
-    color: white;
+    font-size: 3rem;          /* tamanho grande e moderno para o título */
+    font-weight: 700;         /* deixa o texto mais forte e profissional */
+    margin-bottom: 12px;      /* espaço entre o título e a descrição */
+    line-height: 1.1;         /* reduz espaço entre as linhas do h1 */
+    color: white;             /* cor branca para o título */
 }
 
+/* ===========================
+   DESCRIÇÃO DO HERO
+   =========================== */
 .hero-description {
-    font-size: 1.2rem;
-    color: #9ca3af;          /* cinza claro elegante */
-    margin-bottom: 25px;       /* espaço antes do botão */
-    max-width: 500px;          /* limita largura para ficar bonito */
-    margin-left: auto;
-    margin-right: auto;        /* centraliza o texto */
-    line-height: 1.5;          /* melhora leitura */
+    font-size: 1.2rem;        /* tamanho confortável para leitura */
+    color: #9ca3af;           /* cinza claro elegante, usado em portfólios */
+    margin-bottom: 25px;      /* espaço entre a descrição e o botão */
+    max-width: 500px;         /* impede o texto de ficar muito largo */
+    margin-left: auto;        /* centraliza o bloco horizontalmente */
+    margin-right: auto;       /* centraliza o bloco horizontalmente */
+    line-height: 1.5;         /* aumenta o espaçamento entre linhas */
 }
 
+/* ===========================
+   BOTÃO DO HERO
+   =========================== */
 .hero-btn {
-    color: #3b82f6;         /* azul suave */
-    border: 2px solid #3b82f6;
-    padding: 10px 22px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 500;
-    display: inline-block;
-    transition: 0.3s;
-    margin-top: 10px;
+    color: #3b82f6;           /* cor do texto (azul suave) */
+    border: 2px solid #3b82f6;/* borda azul para destacar o botão */
+    background: transparent;  /* fundo transparente para estilo moderno */
+    padding: 10px 22px;       /* espaço interno do botão */
+    border-radius: 6px;       /* bordas arredondadas */
+    text-decoration: none;    /* remove sublinhado do link */
+    font-weight: 500;         /* texto um pouco mais forte */
+    display: inline-block;    /* permite padding e tamanho no botão */
+    transition: 0.3s;         /* animação suave ao passar o rato */
 }
 
+/* ===========================
+   HOVER DO BOTÃO
+   =========================== */
 .hero-btn:hover {
-    background-color: #2563eb;
-    transform: translateY(-3px);
+    background: #3b82f6;      /* fundo azul ao passar o rato */
+    color: white;             /* texto fica branco no hover */
 }
 
-.hero p {
-    font-size: 1.2rem;
-    color: #9ca3af;            /* cinza claro elegante */
-    margin-bottom: 25px;         /* espaço antes do botão */
-    max-width: 500px;            /* texto não fica largo demais */
-}
 
 
 /* ================================================= */
