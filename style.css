@@ -293,7 +293,7 @@ section h2 {
     transform: none;
     background-color: #1e293b;
 }
-
+/*
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
