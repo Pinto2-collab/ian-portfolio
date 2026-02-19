@@ -198,3 +198,42 @@ section h2 {
         opacity: 1;
     }
 }
+
+/* ================= GALLERY ================= */
+
+.gallery {
+    background-color: #000;
+    padding: 120px 60px;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+.gallery-grid {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.photo {
+    background-color: #111;
+    margin-bottom: 20px;
+    height: auto;
+    break-inside: avoid;
+    transition: 0.4s ease;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+    filter: grayscale(100%);
+    transition: 0.4s ease;
+}
+
+.photo:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
