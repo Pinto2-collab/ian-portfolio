@@ -173,18 +173,19 @@ section h2 {
     align-items: center;
     text-align: center;
 
-    background-color: #000000;
+    background-color: #000;
 }
 
 .photo-hero h1 {
     font-size: 4rem;
-    letter-spacing: 8px;
-    font-weight: 300;
+    letter-spacing: 12px;
+    font-weight: 200;
 }
 
 .photo-hero p {
-    margin-top: 20px;
-    color: #888;
-    font-size: 1rem;
+    margin-top: 25px;
+    color: #666;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
 }
 
