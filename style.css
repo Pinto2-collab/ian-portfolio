@@ -78,31 +78,32 @@ nav a:hover {
 
 .hero {
     min-height: 90vh;
-    padding-top: 120px;
+    padding: 120px 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .hero h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    font-size: 3rem;            /* tamanho moderno */
+    font-weight: 700;           /* mais forte e profissional */
+    letter-spacing: 2px;      
+    margin-bottom: 10px;       /* espaco pequeno abaixo */
+    line-height: 1.1;          /* deixa mais compacto e bonito */
+    color: white;
 }
 
-.hero-subtitle {
-    max-width: 600px;
-    font-size: 1.1rem;
-    color: #94a3b8;
-    margin-bottom: 40px;
-    line-height: 1.6;
+.hero-description {
+    font-size: 1.2rem;
+    color: #9ca3af;          /* cinza claro elegante */
+    margin-bottom: 25px;       /* espaço antes do botão */
+    max-width: 500px;          /* limita largura para ficar bonito */
+    margin-left: auto;
+    margin-right: auto;        /* centraliza o texto */
+    line-height: 1.5;          /* melhora leitura */
 }
 
 .hero-btn {
@@ -119,6 +120,13 @@ nav a:hover {
 .hero-btn:hover {
     background-color: #2563eb;
     transform: translateY(-3px);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #9ca3af;            /* cinza claro elegante */
+    margin-bottom: 25px;         /* espaço antes do botão */
+    max-width: 500px;            /* texto não fica largo demais */
 }
 
 
