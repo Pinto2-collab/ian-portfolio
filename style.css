@@ -161,64 +161,73 @@ nav a:hover {
 
 
 
-
-/* ================================================= */
-/* ===================== PORTAL ==================== */
-/* ================================================= */
-
-.project {
-    padding: 120px 40px;
+/* =========================================================== */
+/* ===================== PROJECTS SECTION ===================== */
+/* ============================================================ */
+.projects {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 0 20px;
     text-align: center;
 }
 
-.project h2 {
-    margin-bottom: 60px;
-    letter-spacing: 4px;
-    font-weight: 400;
-}
-
-.project-card {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.project-card {
-    background-color: #1e293b;
-    padding: 60px 30px;
-    border-radius: 10px;
-    text-decoration: none;
+.projects h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
     color: white;
-    transition: 0.3s ease;
 }
 
-.project-card:hover {
-    transform: translateY(-6px);
-    background-color: #334155;
+/* GRID que organiza os cartões */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 
+/* CARTÃO INDIVIDUAL */
+.project-card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/* Texto dentro do cartão */
 .project-card h3 {
-    margin-bottom: 15px;
-    font-weight: 400;
-    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: white;
 }
 
 .project-card p {
-    font-size: 0.9rem;
-    color: #94a3b8;
+    color: #d1d5db;
+    font-size: 1rem;
+    margin-bottom: 15px;
 }
 
-.project-card.coming {
-    opacity: 0.6;
-    cursor: default;
+/* Botão dentro do cartão */
+.project-btn {
+    color: #3b82f6;
+    border: 2px solid #3b82f6;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.3s;
 }
 
-.project-card.coming:hover {
-    transform: none;
-    background-color: #1e293b;
+.project-btn:hover {
+    background: #3b82f6;
+    color: white;
 }
+
+/* Hover do cartão */
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
 
 
 /* ================================================= */
