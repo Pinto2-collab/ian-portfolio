@@ -344,3 +344,16 @@ nav a:hover {
         letter-spacing: 6px;
     }
 }
+
+/* ===========================
+   FOOTER – rodapé do site
+   =========================== */
+.footer {
+    text-align: center;         /* centraliza o texto */
+    padding: 30px 20px;         /* espaço interno */
+    color: #9ca3af;             /* cinza suave */
+    font-size: 0.9rem;          /* menor e discreto */
+    margin-top: 80px;           /* espaço acima do footer */
+    border-top: 1px solid #1f2937; /* linha suave separadora */
+}
+
