@@ -244,6 +244,32 @@ nav a:hover {
     background-color: #000;
 }
 
+/* ================= CONCEPT SECTION ================= */
+
+.photo-concept {
+    background-color: #000;
+    padding: 120px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.concept-container {
+    max-width: 700px;
+    text-align: center;
+}
+
+.concept-container h2 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+.concept-container p {
+    color: #888;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
 .photo-hero h1 {
     font-size: 4rem;
     letter-spacing: 12px;
