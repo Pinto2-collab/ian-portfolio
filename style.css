@@ -294,7 +294,7 @@ nav a:hover {
 
 .gallery {
     background-color: #000;
-    padding: 120px 60px;
+    padding: 160px 60px;
 }
 
 .gallery h2 {
@@ -311,21 +311,34 @@ nav a:hover {
 
 .photo {
     background-color: #111;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     break-inside: avoid;
-    transition: 0.4s ease;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
 }
+
+.photo:nth-child(1) { animation-delay: 0.2s; }
+.photo:nth-child(2) { animation-delay: 0.4s; }
+.photo:nth-child(3) { animation-delay: 0.6s; }
+.photo:nth-child(4) { animation-delay: 0.8s; }
+.photo:nth-child(5) { animation-delay: 1s; }
+.photo:nth-child(6) { animation-delay: 1.2s; }
+.photo:nth-child(7) { animation-delay: 1.4s; }
+.photo:nth-child(8) { animation-delay: 1.6s; }
+.photo:nth-child(9) { animation-delay: 1.8s; }
 
 .photo img {
     width: 100%;
     display: block;
     filter: grayscale(100%);
-    transition: 0.4s ease;
+    transition: transform 0.6s ease, filter 0.6s ease;
 }
 
 .photo:hover img {
     filter: grayscale(0%);
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 
@@ -336,6 +349,7 @@ nav a:hover {
 @keyframes fadeIn {
     to {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 
