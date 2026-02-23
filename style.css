@@ -315,8 +315,8 @@ nav a:hover {
     break-inside: avoid;
     overflow: hidden;
     opacity: 0;
-    transform: translateY(30px);
-    animation: fadeUp 1s ease forwards;
+    transform: translateY(15px);
+    animation: fadeUp 0.6s ease forwards;
 }
 
 .photo:nth-child(1) { animation-delay: 0.2s; }
