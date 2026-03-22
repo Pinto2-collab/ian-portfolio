@@ -17,6 +17,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0f172a;
@@ -70,6 +76,12 @@ nav a {
 nav a:hover {
     color: #3b82f6;
 }
+
+.nav-scrolled {
+    background: rgba(15, 23, 42, 1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+   }
 
 
 /* ================================================= */
@@ -384,12 +396,27 @@ nav a:hover {
     }
 }
 
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
 
 /* ================================================= */
 /* ================= MEDIA QUERIES ================= */
 /* ================================================= */
 
 @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
 
     .nav-container {
         flex-direction: column;
@@ -397,9 +424,21 @@ nav a:hover {
     }
 
     nav ul {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background-color: #0f172a;
+
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         align-items: center;
+        padding: 20px, 0;
+        display: none;
+    }
+
+    nav ul.active {
+        display: flex;
     }
 
     .gallery-grid {
@@ -428,3 +467,7 @@ nav a:hover {
     border-top: 1px solid #1f2937; /* linha suave separadora */
 }
 
+/*=======================================
+   Para Efeito do scroll no navegador
+   ====================================== */
+   
