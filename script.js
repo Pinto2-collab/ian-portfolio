@@ -25,6 +25,9 @@ window.addEventListener(scroll, () => {
 const toggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector("nav ul");
 
-toggle.addEventListener("click", () => {
-    menu.classList.toggle("active");
-});
+if (toggle && menu) {
+    toggle.addEventListener("click", () => {
+        console.log("clicou");
+        menu.classList.toggle("active");
+    });
+}
