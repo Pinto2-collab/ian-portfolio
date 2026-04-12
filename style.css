@@ -437,7 +437,7 @@ nav a:hover {
         padding: 20px 0;
     }
 
-    nav ul.active {
+    .nav-menu.active {
         display: flex;
     }
 
