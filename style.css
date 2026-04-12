@@ -414,6 +414,7 @@ nav a:hover {
 /* ================================================= */
 
 @media (max-width: 768px) {
+
     .menu-toggle {
         display: block;
     }
@@ -426,34 +427,21 @@ nav a:hover {
     nav ul {
         position: absolute;
         top: 70px;
-        right: 0;
+        left: 0;
         width: 100%;
         background-color: #0f172a;
 
         flex-direction: column;
-        gap: 20px;
         align-items: center;
-        padding: 20px, 0;
-        display: none;
+        gap: 20px;
+        padding: 20px 0;
     }
 
     nav ul.active {
         display: flex;
     }
 
-    .gallery-grid {
-        column-count: 1;
-    }
 
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .photo-hero h1 {
-        font-size: 2.5rem;
-        letter-spacing: 6px;
-    }
-}
 
 /* ===========================
    FOOTER – rodapé do site
